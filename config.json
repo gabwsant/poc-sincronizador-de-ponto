@@ -1,0 +1,6 @@
+{
+  "codigoRelogio": "PTRL00050",
+  "baseConexao": "D",
+  "portaSerial": "COM4",
+  "modeloRelogio": "CIS"
+}
