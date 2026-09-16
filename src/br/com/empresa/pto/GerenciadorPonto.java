@@ -1,9 +1,9 @@
-package br.com.gontijo.pto;
-
-import br.com.gontijo.pto.comum.Config;
+package br.com.empresa.pto;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import br.com.empresa.pto.comum.Config;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -39,7 +39,7 @@ public class GerenciadorPonto {
     
     public static void main(String[] args) throws Exception {
         ReentrantLock lockDoArquivo = new ReentrantLock();
-        
+
         GerenciadorPonto ponto = new GerenciadorPonto(lockDoArquivo);
 
         // Sincronizador de pontos

@@ -1,4 +1,4 @@
-package br.com.gontijo.pto.comum;
+package br.com.empresa.pto.comum;
 
 public class Config {
     

@@ -1,6 +1,4 @@
-package br.com.gontijo.pto;
-
-import br.com.gontijo.pto.comum.Config;
+package br.com.empresa.pto;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -31,6 +29,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import br.com.empresa.pto.comum.Config;
 
 public class Sincronizador implements Runnable {
 
